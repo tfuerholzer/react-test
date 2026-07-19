@@ -1,5 +1,4 @@
 import React, {CSSProperties, JSX, useEffect, useRef, useState} from 'react';
-import {types} from "sass";
 import {INITIAL_TOKEN, LOADING_TOKEN, RemoteResource} from "./RemoteResource";
 import {delay, from, tap, throwError} from "rxjs";
 
